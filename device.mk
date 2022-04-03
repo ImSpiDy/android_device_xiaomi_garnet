@@ -19,6 +19,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # common
 $(call inherit-product-if-exists, device/xiaomi/common/device.mk)
 
+# MiuiCamera
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-garnet/device.mk)
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
