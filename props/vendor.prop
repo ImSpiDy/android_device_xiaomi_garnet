@@ -122,6 +122,7 @@ debug.sf.early.sf.duration=12333333
 debug.sf.earlyGl.app.duration=13666666
 debug.sf.earlyGl.sf.duration=12333333
 debug.sf.enable_gl_backpressure=0
+debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
 debug.sf.late.app.duration=13666666
