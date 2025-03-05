@@ -169,6 +169,11 @@ on early-boot
     write /sys/kernel/cnss/fs_ready 1
     # Enable WLAN SSR recovery
     #write /sys/kernel/cnss/recovery 1
+
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
     start vendor.sensors
     verity_update_state
 
