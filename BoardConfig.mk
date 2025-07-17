@@ -234,5 +234,8 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# common
+-include device/xiaomi/common/BoardConfig.mk
+
 # Vendor
 include vendor/xiaomi/garnet/BoardConfigVendor.mk
