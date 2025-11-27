@@ -128,6 +128,9 @@ persist.sys.fuse.passthrough.enable=true
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # Graphics
 debug.hwui.renderer=skiagl
 debug.sf.auto_latch_unsignaled=0
